@@ -15,11 +15,7 @@ Useful extensions functions to dart language.
 
 ## Getting started
 
-Add dependecy
-```yaml
-dependencies:
-  siberia: ^1.0.0
-```
+https://pub.dev/packages/siberia
 
 
 ## Usage
