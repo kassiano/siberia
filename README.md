@@ -15,8 +15,18 @@ Siberia lib is a lib for useful extentions to dart language.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add dependecy
+```yaml
+dependencies:
+  siberia: ^1.0.0
+```
+
+Use the imports:
+```dart
+import 'package:siberia/primitives/string_extentions.dart';
+import 'package:siberia/primitives/number_extentions.dart';
+```
+
 
 ## Usage
 
