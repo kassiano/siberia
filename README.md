@@ -11,7 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-Siberia lib is a lib for useful extentions to dart language. 
+Useful extentions functions to dart language. 
 
 ## Getting started
 
