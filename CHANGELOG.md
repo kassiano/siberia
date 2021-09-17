@@ -1,4 +1,4 @@
-## 0.0.1
+## 1.0.0
 
 The first release adds the folowing String extention functions:
 * `orEmoty`
@@ -6,3 +6,4 @@ The first release adds the folowing String extention functions:
 * `toIntOrNull`
 * `toDouble`
 * `toDoubleOrNull`
+* `orZero`
