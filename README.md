@@ -52,5 +52,16 @@ final String value = "X10";
 final double? doubleNullableValue = value.toDoubleOrNull();
 ```
 
+### Number extentions
+
+* `orZero`:
+```dart
+int? exempleInt;
+double? exempleDouble;
+
+print(exempleInt.orZero());
+print(exempleDouble.orZero());
+```
+
 ## Additional information
 
