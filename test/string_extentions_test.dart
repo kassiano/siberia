@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:siberia/primitives/string_extentions.dart';
+import 'package:siberia/primitives/string_extensions.dart';
 
 void main() {
   test('When String is null and orEmpty is called Then the result should be empty text', () {

@@ -11,7 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-Useful extentions functions to dart language. 
+Useful extensions functions to dart language. 
 
 ## Getting started
 
@@ -26,8 +26,8 @@ dependencies:
 
 imports
 ```dart
-import 'package:siberia/primitives/string_extentions.dart';
-import 'package:siberia/primitives/number_extentions.dart';
+import 'package:siberia/primitives/string_extensions.dart';
+import 'package:siberia/primitives/number_extensions.dart';
 ```
 
 ### String Extentions

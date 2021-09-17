@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:siberia/primitives/number_extentions.dart';
+import 'package:siberia/primitives/number_extensions.dart';
 
 void main() {
 
