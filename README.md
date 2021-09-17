@@ -21,14 +21,14 @@ dependencies:
   siberia: ^1.0.0
 ```
 
-Use the imports:
+
+## Usage
+
+imports
 ```dart
 import 'package:siberia/primitives/string_extentions.dart';
 import 'package:siberia/primitives/number_extentions.dart';
 ```
-
-
-## Usage
 
 ### String Extentions
 * `orEmpty`:
