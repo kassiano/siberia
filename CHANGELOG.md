@@ -1,5 +1,6 @@
 ## 1.1.0 - Saturday, Sep. 18, 2021
 - fix: normalized library export files
+- feat: added github actions pull request validation flow
 
 **BREAKING CHANGES**
 - feat: Changed some extension methods into getters
