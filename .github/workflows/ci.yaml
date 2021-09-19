@@ -5,6 +5,7 @@ on: [pull_request, workflow_dispatch]
 jobs:
   analyze:
     timeout-minutes: 15
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
@@ -20,6 +21,7 @@ jobs:
 
   format:
     timeout-minutes: 15
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
@@ -35,6 +37,7 @@ jobs:
 
   test:
     timeout-minutes: 15
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
