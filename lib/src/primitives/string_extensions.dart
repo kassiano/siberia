@@ -1,3 +1,4 @@
+library string;
 
 extension NullableStringExtensions on String? {
 

@@ -1,3 +1,6 @@
+## 1.1.0 - Saturday, Sep. 18, 2021
+- fix: normalized library export files
+
 ## 1.0.1
 
 Rename files. It's a breaking change, need to update the imports. 

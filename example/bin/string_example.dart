@@ -1,4 +1,4 @@
-import 'package:siberia/primitives/string_extensions.dart';
+import 'package:siberia/siberia.dart';
 
 void main(List<String> arguments) {
 
