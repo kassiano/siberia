@@ -1,31 +1,29 @@
 import 'package:siberia/siberia.dart';
 
 void main(List<String> arguments) {
+  String? exampleString;
 
-  String? exempleString;
+  //orEmpty example
+  exampleString = null;
+  print(exampleString.orEmpty());
 
-  //orEmprty exemple
-  exempleString = null;
-  print(exempleString.orEmpty());
-
-  //toInt exemple
-  exempleString = "1";
-  int intValue = exempleString.toInt();
+  //toInt example
+  exampleString = "1";
+  int intValue = exampleString.toInt();
   print(intValue);
 
-  //toIntOrNull exemple
-  exempleString = "value";
-  int? intNullValue = exempleString.toIntOrNull();
+  //toIntOrNull example
+  exampleString = "value";
+  int? intNullValue = exampleString.toIntOrNull();
   print(intNullValue);
 
-  //toDouble exemple
-  exempleString = "1";
-  double doubleValue = exempleString.toDouble();
+  //toDouble example
+  exampleString = "1";
+  double doubleValue = exampleString.toDouble();
   print(doubleValue);
 
-  //toDoubleOrNull exemple
-  exempleString = "1";
-  double? doubleNullValue = exempleString.toDoubleOrNull();
+  //toDoubleOrNull example
+  exampleString = "1";
+  double? doubleNullValue = exampleString.toDoubleOrNull();
   print(doubleValue);
-
 }

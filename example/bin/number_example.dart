@@ -1,12 +1,10 @@
 import 'package:siberia/siberia.dart';
 
 void main(List<String> arguments) {
+  int? exampleInt;
+  double? exampleDouble;
 
-  int? exempleInt;
-  double? exempleDouble;
-
-  //orZero exemple
-  print(exempleInt.orZero());
-  print(exempleDouble.orZero());
-
+  //orZero example
+  print(exampleInt.orZero());
+  print(exampleDouble.orZero());
 }

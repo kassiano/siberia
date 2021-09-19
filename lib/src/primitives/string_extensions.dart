@@ -1,16 +1,13 @@
 library string;
 
 extension NullableStringExtensions on String? {
-
   /// returns a empty text if input value is null
   String orEmpty() {
     return this ?? "";
   }
-
 }
 
 extension StringConvertions on String {
-
   /// convert a string in and int value if is possible
   /// throws a [FormatException] is string content is not a number value
   int toInt() {
@@ -36,5 +33,4 @@ extension StringConvertions on String {
   double? toDoubleOrNull() {
     return double.tryParse(this);
   }
-
 }

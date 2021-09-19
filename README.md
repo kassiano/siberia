@@ -62,11 +62,11 @@ final double? doubleNullableValue = value.toDoubleOrNull();
 
 * `orZero`:
 ```dart
-int? exempleInt;
-double? exempleDouble;
+int? exampleInt;
+double? exampleDouble;
 
-print(exempleInt.orZero());
-print(exempleDouble.orZero());
+print(exampleInt.orZero());
+print(exampleDouble.orZero());
 ```
 
 ## Additional information
