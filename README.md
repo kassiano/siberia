@@ -22,8 +22,7 @@ https://pub.dev/packages/siberia
 
 imports
 ```dart
-import 'package:siberia/primitives/string_extensions.dart';
-import 'package:siberia/primitives/number_extensions.dart';
+import 'package:siberia/siberia.dart';
 ```
 
 ### String Extentions
@@ -31,7 +30,7 @@ import 'package:siberia/primitives/number_extensions.dart';
 
 ```dart
 final String? value;
-print(value.orEmpty());
+print(value.orEmpty);
 ```
 
 * `toInt`:
@@ -43,7 +42,7 @@ final int intValue = value.toInt();
 * `toIntOrNull`:
 ```dart
 final String value = "X10";
-final int? intNullableValue = value.toIntOrNull();
+final int? intNullableValue = value.tryToInt();
 ```
 
 * `toDouble`:
@@ -55,19 +54,25 @@ final double doubleValue = value.toDouble();
 * `toDoubleOrNull`:
 ```dart
 final String value = "X10";
-final double? doubleNullableValue = value.toDoubleOrNull();
+final double? doubleNullableValue = value.tryToDouble();
 ```
 
 ### Number extentions
 
 * `orZero`:
 ```dart
-int? exempleInt;
-double? exempleDouble;
+int? exampleInt;
+double? exampleDouble;
 
-print(exempleInt.orZero());
-print(exempleDouble.orZero());
+print(exampleInt.orZero);
+print(exampleDouble.orZero);
 ```
 
-## Additional information
+### Contributors
+
+<a href="https://github.com/kassiano/siberia/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=kassiano/siberia" />
+</a>
+
+Made with [contributors-img](https://contrib.rocks).
 
