@@ -6,7 +6,7 @@ void main() {
       'When String is null and orEmpty is called Then the result should be empty text',
       () {
     String? input;
-    final result = input.orEmpty();
+    final result = input.orEmpty;
     expect(result, "");
   });
 
@@ -28,14 +28,14 @@ void main() {
   test(
       'When String has a number value then toIntOrNull should return the converted int value',
       () {
-    expect("10".toIntOrNull(), 10);
-    expect("-10".toIntOrNull(), -10);
-    expect("+10".toIntOrNull(), 10);
+    expect("10".tryToInt(), 10);
+    expect("-10".tryToInt(), -10);
+    expect("+10".tryToInt(), 10);
   });
 
   test('When String has not a number value then toIntOrNull should return null',
       () {
-    expect("x10".toIntOrNull(), null);
+    expect("x10".tryToInt(), null);
   });
 
   //double tests
@@ -58,14 +58,14 @@ void main() {
   test(
       'When String has a number value then toDoubleOrNull should return the converted int value',
       () {
-    expect("10".toDoubleOrNull(), 10.0);
-    expect("-10".toDoubleOrNull(), -10.0);
-    expect("+10".toDoubleOrNull(), 10.0);
+    expect("10".tryToDouble(), 10.0);
+    expect("-10".tryToDouble(), -10.0);
+    expect("+10".tryToDouble(), 10.0);
   });
 
   test(
       'When String has not a number value then toDoubleOrNull should return null',
       () {
-    expect("x10".toDoubleOrNull(), null);
+    expect("x10".tryToDouble(), null);
   });
 }

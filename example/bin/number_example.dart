@@ -5,6 +5,6 @@ void main(List<String> arguments) {
   double? exampleDouble;
 
   //orZero example
-  print(exampleInt.orZero());
-  print(exampleDouble.orZero());
+  print(exampleInt.orZero);
+  print(exampleDouble.orZero);
 }

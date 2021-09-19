@@ -1,4 +1,4 @@
 library primitives;
 
-export 'number_extensions.dart';
-export 'string_extensions.dart';
+export 'number/number.dart';
+export 'string/string.dart';

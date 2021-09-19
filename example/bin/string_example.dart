@@ -5,7 +5,7 @@ void main(List<String> arguments) {
 
   //orEmpty example
   exampleString = null;
-  print(exampleString.orEmpty());
+  print(exampleString.orEmpty);
 
   //toInt example
   exampleString = "1";
@@ -14,7 +14,7 @@ void main(List<String> arguments) {
 
   //toIntOrNull example
   exampleString = "value";
-  int? intNullValue = exampleString.toIntOrNull();
+  int? intNullValue = exampleString.tryToInt();
   print(intNullValue);
 
   //toDouble example
@@ -24,6 +24,6 @@ void main(List<String> arguments) {
 
   //toDoubleOrNull example
   exampleString = "1";
-  double? doubleNullValue = exampleString.toDoubleOrNull();
+  double? doubleNullValue = exampleString.tryToDouble();
   print(doubleValue);
 }
