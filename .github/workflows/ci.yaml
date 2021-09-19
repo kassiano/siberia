@@ -1,0 +1,50 @@
+name: Continuous Integration
+
+on: [pull_request, workflow_dispatch]
+
+jobs:
+  analyze:
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Configuring flutter environment
+        uses: subosito/flutter-action@v1.4.0
+        with:
+          channel: 'stable'
+      - name: "Bootstrap Workspace"
+        run: flutter packages get
+      - name: "Flutter Analyze"
+        run: flutter analyze .
+
+  format:
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Configuring flutter environment
+        uses: subosito/flutter-action@v1.4.0
+        with:
+          channel: 'stable'
+      - name: "Bootstrap Workspace"
+        run: flutter packages get
+      - name: "Flutter Format"
+        run: flutter analyze .
+
+  test:
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Configuring flutter environment
+        uses: subosito/flutter-action@v1.4.0
+        with:
+          channel: 'stable'
+      - name: "Bootstrap Workspace"
+        run: flutter packages get
+      - name: "Flutter Format"
+        run: flutter test
+
