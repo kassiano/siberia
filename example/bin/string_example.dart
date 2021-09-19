@@ -25,5 +25,5 @@ void main(List<String> arguments) {
   //toDoubleOrNull example
   exampleString = "1";
   double? doubleNullValue = exampleString.tryToDouble();
-  print(doubleValue);
+  print(doubleNullValue);
 }
