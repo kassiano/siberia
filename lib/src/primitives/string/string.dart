@@ -43,11 +43,7 @@ extension NullableStringExtensions on String? {
   bool testNullability([List<StringTester> nullabilityRules = const []]) {
     if (isNullable) return true;
 
-    return nullabilityRules.firstWhere(
-          (rule) => rule(this!) == true,
-          orElse: () => null,
-        ) !=
-        null;
+    return nullabilityRules.any((rule) => rule(this!) == true);
   }
 }
 
