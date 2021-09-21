@@ -40,11 +40,11 @@ extension NullableStringExtensions on String? {
   /// ```
   ///
   /// ! ATTENTION: This method is case sensitive
-  bool testNullability([List<StringTester?> nullabilityRules = const []]) {
+  bool testNullability([List<StringTester> nullabilityRules = const []]) {
     if (isNullable) return true;
 
     return nullabilityRules.firstWhere(
-          (rule) => rule!(this!) == true,
+          (rule) => rule(this!) == true,
           orElse: () => null,
         ) !=
         null;
