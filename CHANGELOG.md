@@ -1,3 +1,10 @@
+## 1.1.1 - Saturday, Sep. 18, 2021
+- feat: added string methods
+- feat: added number methods
+- feat: added date methods
+- feat: added on flutter widgets
+- feat: added on flutter material
+
 ## 1.1.0 - Saturday, Sep. 18, 2021
 - fix: normalized library export files
 - feat: added github actions pull request validation flow
